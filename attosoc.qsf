@@ -1,0 +1,14 @@
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name VQM_FILE output.vqm
+set_global_assignment -name DEVICE 5CSEBA6U23I7DK
+set_global_assignment -name TOP_LEVEL_ENTITY attosoc
+set_location_assignment -to "clk" PIN_V11
+set_location_assignment -to "led[0]" PIN_W15
+set_location_assignment -to "led[1]" PIN_AA24
+set_location_assignment -to "led[2]" PIN_V16
+set_location_assignment -to "led[3]" PIN_V15
+set_location_assignment -to "led[4]" PIN_AF26
+set_location_assignment -to "led[5]" PIN_AE26
+set_location_assignment -to "led[6]" PIN_Y16
+set_location_assignment -to "led[7]" PIN_AA23
+
